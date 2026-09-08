@@ -1,1 +1,140 @@
-{"leetcode":{"easy":2,"hard":2,"medium":7,"shas":{"0001-two-sum":{"0001-two-sum.cpp":"323ec363c8d49d67a4e1db4782ec47e43e61e6e1","README.md":"7238204fabae612bb22b153b27369c01b34708d6"},"0002-add-two-numbers":{"0002-add-two-numbers.cpp":"6097c6e869c5862c184152f80e731f76d8a7c931","README.md":"466f5e31bfeb151e70b5b325c379cf04183ebb57","difficulty":"medium"},"README.md":{"":"02891512e508af1d907a4341930cf30d469c0f64"},"0003-longest-substring-without-repeating-characters":{"0003-longest-substring-without-repeating-characters.cpp":"55b461611d2bf8c3901f0627fef9b4882ea4e5a2","README.md":"35c98ddc01c731396b7168a250d91aedce54425e","difficulty":"medium"},"stats.json":{"":"5f3ea47c7460fbecd1faf12ff79c68e75c218b13"},"0004-median-of-two-sorted-arrays":{"0004-median-of-two-sorted-arrays.cpp":"7a88ce1d4ef296a2d8e56ca7ef66b0ac5385ce12","README.md":"be94a82db362148fa07bc71d2831cb0cb25279e9","difficulty":"hard"},"0005-longest-palindromic-substring":{"0005-longest-palindromic-substring.cpp":"582f512958f598a30e2e277b6808de543a755f92","README.md":"2dd7c6a096d24a86081d3fc43e66203db17d7f19","difficulty":"medium"},"0006-zigzag-conversion":{"0006-zigzag-conversion.cpp":"2dd6ebb83664fc7688de2bd582d3be65f37f2391","README.md":"c32dbe88a507928267d767767fb42e1d422c0a6a","difficulty":"medium"},"0007-reverse-integer":{"0007-reverse-integer.cpp":"35682e0a188aad066c49fd414997243ddebfe4ac","README.md":"e36087da667bff8eb5abd80e45d4a9705fcc6fa2","difficulty":"medium"},"0008-string-to-integer-atoi":{"0008-string-to-integer-atoi.cpp":"d74b7646a2faf86ed43fba139ecc2fad6f08410e","README.md":"ce3664c318c777ed9f61f8d0ad9fdd885e628733","difficulty":"medium"},"0012-integer-to-roman":{"0012-integer-to-roman.cpp":"92f1c697d131d05cb64f348ea48711aad861a94f","README.md":"a0157db81c2e819834d1763caa990695c3337ae7","difficulty":"medium"},"0225-implement-stack-using-queues":{"0225-implement-stack-using-queues.cpp":"b97f2cf99482a35a69461d1d795c3b6d05c2b7c2","README.md":"b654d8365893c74fe70f24041bb5a9545bcd8d9e","difficulty":"easy"},"0232-implement-queue-using-stacks":{"0232-implement-queue-using-stacks.cpp":"9f58402902bf80c9b60d24e563ec5bf19a0110f7","README.md":"d0de1ae41764baaa8af874723bd5b1dc85277d89","difficulty":"easy"},"0084-largest-rectangle-in-histogram":{"0084-largest-rectangle-in-histogram.cpp":"60fa93251416e84a8a88b6d08e3dddfd16c0b45c","README.md":"f9c9e32331a81594e34c0fee9cb1fa5d22b8ee50","difficulty":"hard"}},"solved":11}}
+{
+  "leetcode": {
+    "easy": 6,
+    "hard": 3,
+    "medium": 15,
+    "shas": {
+      "0001-two-sum": {
+        "0001-two-sum.cpp": "323ec363c8d49d67a4e1db4782ec47e43e61e6e1",
+        "README.md": "7238204fabae612bb22b153b27369c01b34708d6"
+      },
+      "0002-add-two-numbers": {
+        "0002-add-two-numbers.cpp": "6097c6e869c5862c184152f80e731f76d8a7c931",
+        "README.md": "466f5e31bfeb151e70b5b325c379cf04183ebb57",
+        "difficulty": "medium"
+      },
+      "README.md": {
+        "": "e4a29aea991f871eaba2fa3e770e9135a8903d81"
+      },
+      "0003-longest-substring-without-repeating-characters": {
+        "0003-longest-substring-without-repeating-characters.cpp": "55b461611d2bf8c3901f0627fef9b4882ea4e5a2",
+        "README.md": "35c98ddc01c731396b7168a250d91aedce54425e",
+        "difficulty": "medium"
+      },
+      "stats.json": {
+        "": ""
+      },
+      "0004-median-of-two-sorted-arrays": {
+        "0004-median-of-two-sorted-arrays.cpp": "7a88ce1d4ef296a2d8e56ca7ef66b0ac5385ce12",
+        "README.md": "be94a82db362148fa07bc71d2831cb0cb25279e9",
+        "difficulty": "hard"
+      },
+      "0005-longest-palindromic-substring": {
+        "0005-longest-palindromic-substring.cpp": "582f512958f598a30e2e277b6808de543a755f92",
+        "README.md": "2dd7c6a096d24a86081d3fc43e66203db17d7f19",
+        "difficulty": "medium"
+      },
+      "0006-zigzag-conversion": {
+        "0006-zigzag-conversion.cpp": "2dd6ebb83664fc7688de2bd582d3be65f37f2391",
+        "README.md": "c32dbe88a507928267d767767fb42e1d422c0a6a",
+        "difficulty": "medium"
+      },
+      "0007-reverse-integer": {
+        "0007-reverse-integer.cpp": "35682e0a188aad066c49fd414997243ddebfe4ac",
+        "README.md": "e36087da667bff8eb5abd80e45d4a9705fcc6fa2",
+        "difficulty": "medium"
+      },
+      "0008-string-to-integer-atoi": {
+        "0008-string-to-integer-atoi.cpp": "d74b7646a2faf86ed43fba139ecc2fad6f08410e",
+        "README.md": "ce3664c318c777ed9f61f8d0ad9fdd885e628733",
+        "difficulty": "medium"
+      },
+      "0012-integer-to-roman": {
+        "0012-integer-to-roman.cpp": "92f1c697d131d05cb64f348ea48711aad861a94f",
+        "README.md": "a0157db81c2e819834d1763caa990695c3337ae7",
+        "difficulty": "medium"
+      },
+      "0225-implement-stack-using-queues": {
+        "0225-implement-stack-using-queues.cpp": "3b7b68f6fcd9110631a074a0fce3ce2fab56ab86",
+        "README.md": "d2a2626612ac08c805f87bb6cf39a1594dff80c7",
+        "difficulty": "easy"
+      },
+      "0232-implement-queue-using-stacks": {
+        "0232-implement-queue-using-stacks.cpp": "325383f9d5f44f8fcac23b27aec03ba6c006592a",
+        "README.md": "0d9ae56322317b247032e551e26c4a89d715d5ba",
+        "difficulty": "easy"
+      },
+      "0084-largest-rectangle-in-histogram": {
+        "0084-largest-rectangle-in-histogram.cpp": "60fa93251416e84a8a88b6d08e3dddfd16c0b45c",
+        "README.md": "f9c9e32331a81594e34c0fee9cb1fa5d22b8ee50",
+        "difficulty": "hard"
+      },
+      "0123-best-time-to-buy-and-sell-stock-iii": {
+        "0123-best-time-to-buy-and-sell-stock-iii.cpp": "c10df1aaedc9f9069bccc75cfe47158ac222db6e",
+        "README.md": "474b8323347865db2e7c589e64a0ad485f260518",
+        "difficulty": "hard"
+      },
+      "0122-best-time-to-buy-and-sell-stock-ii": {
+        "0122-best-time-to-buy-and-sell-stock-ii.cpp": "18ee3c9ee8f54bac6acb71417df48d1777fb8e47",
+        "README.md": "133aa91db260fede6b3e184c4d6aa96acce2c30a",
+        "difficulty": "medium"
+      },
+      "0121-best-time-to-buy-and-sell-stock": {
+        "0121-best-time-to-buy-and-sell-stock.cpp": "7810b9b8745037b876b81efd918b38f168b2a308",
+        "README.md": "2f6d3524bfec69f9bc1b46526c98826279a4016a",
+        "difficulty": "easy"
+      },
+      "0678-valid-parenthesis-string": {
+        "0678-valid-parenthesis-string.cpp": "bc877f53fe15a86b6c5ed70a41e5a22973633f96",
+        "README.md": "5201174d9a7aaafee76ee5c7d7b76d772fa4d12c",
+        "difficulty": "medium"
+      },
+      "0101-symmetric-tree": {
+        "0101-symmetric-tree.cpp": "9a82a0b13d4086fc053f89aed3a1e76d3504de8c",
+        "README.md": "7cf17297d9d7782e0044b8178fed3e6ba80816ab",
+        "difficulty": "easy"
+      },
+      "0100-same-tree": {
+        "0100-same-tree.cpp": "275cdc2ab99780d846ec796a66e3f254101c9e4c",
+        "README.md": "7484634aaa8feefcbe7c9ea968e69badfc5476f4",
+        "difficulty": "easy"
+      },
+      "0099-recover-binary-search-tree": {
+        "0099-recover-binary-search-tree.cpp": "25cdea79eb9d62e4e4065de77d318f1060b8d13d",
+        "README.md": "31c5284eecaae792a1db191a6422b00b8d05f095",
+        "difficulty": "medium"
+      },
+      "0098-validate-binary-search-tree": {
+        "0098-validate-binary-search-tree.cpp": "e767027d3787caf57a7ca71631cc90d574b11d9a",
+        "README.md": "b9db84b432ac74e01337068e7df86bd5a2cb4b14",
+        "difficulty": "medium"
+      },
+      "0097-interleaving-string": {
+        "0097-interleaving-string.cpp": "242ee3bf52b069d8c26f6429fb056675d210939d",
+        "README.md": "71a9a8d183574c2910531b7a54bdc72580b873fe",
+        "difficulty": "medium"
+      },
+      "0096-unique-binary-search-trees": {
+        "0096-unique-binary-search-trees.cpp": "915d232a050ddb8832447c4e25c8c2884a40c543",
+        "README.md": "26998a46e2e78b346326fc6347f734151d9dbae8",
+        "difficulty": "medium"
+      },
+      "0095-unique-binary-search-trees-ii": {
+        "0095-unique-binary-search-trees-ii.cpp": "8e4dd0ec4c064a55be727f670710139df8ec6055",
+        "README.md": "c71bb83e8d0392312ca0ed787e9bbb13fb42da2e",
+        "difficulty": "medium"
+      },
+      "0058-length-of-last-word": {
+        "0058-length-of-last-word.cpp": "2e69f108dde0ed9af216c35ea5ce089eec58e8af",
+        "README.md": "6593ccb06463fd9c90d4fe565a4459ed5e8585e5",
+        "difficulty": "easy"
+      },
+      "0057-insert-interval": {
+        "0057-insert-interval.cpp": "1be6ba124463b943e4cf91f96db4c54698f173ca",
+        "README.md": "bfcb7d94de9fc0e8b0c1c8c97119d7eca397a938",
+        "difficulty": "medium"
+      }
+    },
+    "solved": 25
+  }
+}
