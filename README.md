@@ -173,4 +173,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0287-find-the-duplicate-number](https://github.com/eishant2313/leetcode/tree/master/0287-find-the-duplicate-number) |
+## Enumeration
+|  |
+| ------- |
+| [1291-sequential-digits](https://github.com/eishant2313/leetcode/tree/master/1291-sequential-digits) |
 <!---LeetCode Topics End-->
