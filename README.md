@@ -97,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0007-reverse-integer](https://github.com/eishant2313/leetcode/tree/master/0007-reverse-integer) |
 | [0012-integer-to-roman](https://github.com/eishant2313/leetcode/tree/master/0012-integer-to-roman) |
 | [0096-unique-binary-search-trees](https://github.com/eishant2313/leetcode/tree/master/0096-unique-binary-search-trees) |
+| [0258-add-digits](https://github.com/eishant2313/leetcode/tree/master/0258-add-digits) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -149,4 +150,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/eishant2313/leetcode/tree/master/0005-longest-palindromic-substring) |
+## Simulation
+|  |
+| ------- |
+| [0258-add-digits](https://github.com/eishant2313/leetcode/tree/master/0258-add-digits) |
+## Number Theory
+|  |
+| ------- |
+| [0258-add-digits](https://github.com/eishant2313/leetcode/tree/master/0258-add-digits) |
 <!---LeetCode Topics End-->
